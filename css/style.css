@@ -1,0 +1,172 @@
+body{
+    background: radial-gradient(rgb(0, 0, 0),rgb(119, 119, 119));
+    background-attachment: fixed;
+    color: white;
+}
+
+.navbar{
+    background-color: rgba(30, 30, 30, 0.869) !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.active{
+    background-color: #949494 !important;
+    border-radius: 5px;
+}
+
+.dropdown-menu{
+    box-shadow: 1px 1px 20px rgb(51, 51, 51);
+    border: none;
+    background-color: rgb(30, 30, 30) !important;
+    padding-bottom: 0px;
+}
+
+.dropdown-item:hover{
+    background-color: #e4e4e4;
+    border-radius: 5px;
+}
+
+.dropdown-item:active{
+    color: #7f5d01;
+    border-radius: 5px;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.dropdown-toggle:hover{
+    color: #949494 !important;
+}
+
+.nav-link:hover{
+    color: #949494 !important;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    margin-bottom: 80px;
+}
+
+h2{
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    background-image: url("../img/h2bg.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 160px;
+    border-radius: 20px;
+}
+
+#desc{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px 10px 10px 20px;
+}
+
+#desc-p{
+    text-align: justify;
+    background-color: #ddceb131;
+    padding: 10px;
+    border-radius: 20px 10px 10px 20px;
+}
+
+#desc-img{
+   border-radius: 10px 20px 20px 10px;
+}
+
+
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.new{
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .new{
+        margin-top: 0px;
+    }
+}
+
+
+h3{
+    background-image: url("../img/h2bg.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.hv{
+    background-color: #ddceb131;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    
+    h2{
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+#elkeszites{
+    width: 100%;
+    text-align: center;
+}
+
+.elkeszites-p{
+    text-align: justify;
+    background-color: #ddceb131;
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 0px;
+}
+
+
+
+footer{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #212121a1 !important;
+    margin-bottom: 0px;
+}
+
+main{
+    ul, h6{
+        margin-left: 10px;
+    }
+
+    h6{
+        font-size: 25px;
+    }
+
+    li{
+        list-style-image: url("../img/cookie.svg");
+        font-size: 20px;
+    }
+}
